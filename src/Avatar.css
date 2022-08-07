@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+.mainpage>h1 {
+    font-family: 'Boogaloo', cursive;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.mainpage>button {
+    display: block;
+    margin: auto;
+    height: 2rem;
+    border-radius: 1rem;
+    border: .125rem solid green;
+    padding: 0 .5rem;
+    background: none;
+    color: green;
+    cursor: pointer;
+}
+
+.mainpage>button:hover {
+    background: green;
+    color: white;
+    border: none;
+}
+
+.card-holder {
+    width: fit-content;
+    margin: auto;
+}
+
+.avatarstyle {
+    border-radius: 1.5rem;
+}
+
+.avatarstyle img {
+    width: 200px;
+    height: 200px;
+}
+
+.avatarstyle:hover {
+    transform: scale(1.1);
+}
